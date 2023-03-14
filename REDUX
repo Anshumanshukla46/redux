@@ -1,0 +1,31 @@
+Redux can be used with angular and vue also.
+
+1. WHAT IS Redux?
+It is container where you can store your whole application data like some api calls, current users data.It is related to front-end.
+ON REFRESHING THE REDUX DATA WILL BE CLEARED.
+
+2. It is state management tool (application state for data) it do not belong to state component
+
+3. why we need redux?
+As normally it is much harder to interact between two differeent components so we could use redux for that.
+Like as if user adding items in cart then number of items should be increased so this can be easily done by redux while context api like things are so hard to do this task.
+
+So once the user have selected the some item then it will be stored in STORE OF REDUX then whenever user want to check the number of items then we can fetch the data form STORE
+
+
+4. Architecture
+1- VIEW (button, checkbox) say a user have entered details 
+2- if some action to be done by entering details the ACTION method will be performed which either collect the data or call the API
+3- Now REDUCER will send the data to STORE and pass the data with information saying to update the data (from 100 to 110 user) or new
+ACTION WILL SEND THE KEY for indicating the action
+4- STORE WILL BE A STATE OF COMPLETE APPLICATION.
+"AN APPLICATION WILL HAVE ONLY ONE STORE",
+"IF WANT TWO STORES THEN TWO APPLICATION"
+
+DIRECTION IS IMPORTANT as-
+VIEW -> ACTION -> REDUCER -> STORE
+
+5. Installation
+1- install react project
+2- npm install redux
+3- npm install react-redux (connecting the react and redux)
