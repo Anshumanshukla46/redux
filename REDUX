@@ -51,4 +51,8 @@ DOING THE TASK
 
 2. ACTION
 -> what is actions
-=> send data from react component to REDUX STORE
+=> send data from react component to REDUX STORE 
+
+
+3. REDUCER
+-> get the data from action and filter out the data to add in STORE
