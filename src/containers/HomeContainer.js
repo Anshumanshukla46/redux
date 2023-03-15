@@ -1,4 +1,4 @@
-import { Connect } from "react-redux";
+import { connect } from "react-redux";
 import Home from "../components/Home" // components
 import { addToCart } from "../Services/Actions/actions" // actions
 
@@ -10,19 +10,22 @@ import { addToCart } from "../Services/Actions/actions" // actions
 //     use mapStateToProps
 
 
+// mapStateToProps : used to send data from STORE to other components
 const mapStateToProps = state => (
     {
-
+        cartData: state
     }
 )
 
+
+
+// mapDispatchToProps : send data from VIEW to STORE
 const mapDispatchToProps = dispatch => (
     {
+        // "addToCartHandler" is a function
         addToCartHandler: data => dispatch(addToCart(data))
     }
 )
 
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home)
-
-// export default Home;

@@ -1,10 +1,13 @@
 import React from "react";
 
+function Home(props) {
 
-// home to container to app.js
-// do this for each components
+    console.log("HOME", props);    // now this function is getting "addToCartHandler" from "homecontainer.js" 
+    // home to container to app.js
+    // do this for each components
 
-function Home() {
+
+
     return (
         <div>
 
@@ -31,7 +34,12 @@ function Home() {
                     </div>
 
                     <div className="btn-wrapper item">
-                        <button>Add To Cart</button>
+                        <button
+                            onClick={() => props.addToCartHandler({ price: 1000, name: "iphone" })}>
+
+                            Add To Cart
+
+                        </button>
                     </div>
 
                 </div>

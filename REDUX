@@ -68,3 +68,10 @@ DOING THE TASK
 <!-- name not needed to be same -->
 mapDispatchToProps : send data from VIEW to STORE
 mapStateToProps : used to send data from STORE to other components
+
+
+6. complete redux flow (STORE)
+    make redux wrapper in index.js(real file) 
+    what is provider
+    Make STORE
+    Data in console
