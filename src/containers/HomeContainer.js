@@ -13,7 +13,9 @@ import { addToCart } from "../Services/Actions/actions" // actions
 // mapStateToProps : used to send data from STORE to other components
 const mapStateToProps = state => (
     {
-        cartData: state
+        // data: state.cardItems.cardData for adding single cardItems
+
+        data: state.cardItems
     }
 )
 

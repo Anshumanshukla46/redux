@@ -38,6 +38,22 @@
   }
 }
 
+/* add-to-cart */
+
+.add-to-cart span {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  z-index: 1;
+  background-color: red;
+  padding: 7px;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+
 /* cart-image */
 .add-to-cart img {
   width: 80px;

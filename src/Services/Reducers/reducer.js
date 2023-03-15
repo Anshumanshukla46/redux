@@ -9,16 +9,16 @@ const initialState = {
     cardData: [] // can have more than one data
 }
 
-export default function cardItems(state = initialState, action) {
+export default function cardItems(state = [], action) {
 
     switch (action.type) {
 
         case ADD_TO_CART:
             // console.log("action", action); // getting from "action.js"
-            return {
+            return [
                 ...state,
-                cardData: action.data
-            }
+                { cardData: action.data }
+            ]
             break;
 
         default: return state
