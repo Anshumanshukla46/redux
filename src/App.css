@@ -32,7 +32,60 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* cart-image */
+.add-to-cart img {
+  width: 80px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+
+/* cart-item */
+.card-wrapper {
+  height: 120px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+
+
+/* image */
+.img-wrapper img {
+  width: 100px;
+  margin-top: -10px;
+}
+
+/* btn */
+.btn-wrapper button {
+  background-color: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  box-shadow: black 0px 1px 5px;
+}
+
+.btn-wrapper button:hover {
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+}
+
+.item {
+  float: left;
+  width: 120px;
+  display: inline-block;
+  padding: 20px;
+  height: 70px;
 }

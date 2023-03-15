@@ -29,3 +29,18 @@ VIEW -> ACTION -> REDUCER -> STORE
 1- install react project
 2- npm install redux
 3- npm install react-redux (connecting the react and redux)
+
+
+6. FILE STRUCTURE inside source
+
+NAME CAN BE ANY BUT REDUX OFFICIAL SITE HAVE USED THIS KIND OF NAME.
+
+components(folder)
+containers(folder)
+service(folder)
+    actions(folder)
+        actions.js
+    reduers(folder)
+        reducer.js
+        index.js (rootreducer.js)
+    constants.js
