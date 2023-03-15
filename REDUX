@@ -44,3 +44,11 @@ service(folder)
         reducer.js
         index.js (rootreducer.js)
     constants.js
+
+
+DOING THE TASK 
+1. made the component but that component will be used in the container (for all components) then exported now app.js(any file) if want to access the file then use the container of that component to use not the real component
+
+2. ACTION
+-> what is actions
+=> send data from react component to REDUX STORE
