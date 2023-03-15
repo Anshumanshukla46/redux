@@ -56,3 +56,15 @@ DOING THE TASK
 
 3. REDUCER
 -> get the data from action and filter out the data to add in STORE
+
+4. CONTAINER
+-> 
+    connect redux with react
+    import react-redux, actions, components
+    use mapDispatchToProps
+    use mapStateToProps
+
+
+<!-- name not needed to be same -->
+mapDispatchToProps : send data from VIEW to STORE
+mapStateToProps : used to send data from STORE to other components
