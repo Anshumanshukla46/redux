@@ -8,10 +8,20 @@ import Header from "../components/Header" // components
 //     use mapDispatchToProps
 //     use mapStateToProps
 
+// passing into component in the form of "props"
+
 const mapStateToProps = state => (
+    /* 
+        "state" is "Redux store state" allows us to map specific part of store to 
+        connected component
+
+        check all item of store in index.js(reducer)
+    */
     {
         data: state.cardItems
     }
+
+    // this "cardItems" is comming from "reducer.js"
 )
 
 const mapDispatchToProps = dispatch => (

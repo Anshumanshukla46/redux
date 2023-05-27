@@ -2,6 +2,8 @@ import React from "react";
 
 function Header(props) {
 
+    // "props" is "data: state.cardItems"
+
     return (
         <div>
 

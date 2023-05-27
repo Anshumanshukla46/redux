@@ -9,9 +9,9 @@ import reportWebVitals from './reportWebVitals';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 
-import rootReducer from "./Services/Reducers/index"
+import rootReducer from "./Services/Reducers/index"; // combineReducer
 
-const store = createStore(rootReducer)
+const store = createStore(rootReducer);
 
 // console.log("STORE ", store);
 

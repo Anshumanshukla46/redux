@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
-import Home from "../components/Home" // components
-import { addToCart } from "../Services/Actions/actions" // actions
+import Home from "../components/Home"; // component
+import { addToCart } from "../Services/Actions/actions"; // actions
 
 // 4. CONTAINER
 //     ->
@@ -10,7 +10,7 @@ import { addToCart } from "../Services/Actions/actions" // actions
 //     use mapStateToProps
 
 
-// mapStateToProps : used to send data from STORE to other components
+// mapStateToProps : to send data from STORE to other components
 const mapStateToProps = state => (
     {
         // data: state.cardItems.cardData for adding single cardItems
@@ -20,8 +20,7 @@ const mapStateToProps = state => (
 )
 
 
-
-// mapDispatchToProps : send data from VIEW to STORE
+// mapDispatchToProps : send data from VIEW(UI) to STORE
 const mapDispatchToProps = dispatch => (
     {
         // "addToCartHandler" is a function

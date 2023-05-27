@@ -1,6 +1,9 @@
 import './App.css';
-import HomeContainer from "./containers/HomeContainer"
-import HeaderContainer from "./containers/HeaderContainer"
+
+// accessing the component from "container" only (CHECK README.md)
+
+import HeaderContainer from "./containers/HeaderContainer";
+import HomeContainer from "./containers/HomeContainer";
 
 function App() {
   return (

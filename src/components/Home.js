@@ -2,18 +2,16 @@ import React from "react";
 
 function Home(props) {
 
-    // props.data is RELATED BECAUSE data IS USED IN "mapStateToProps"
-    console.log("HOME", props.data);    // now this function is getting "addToCartHandler" from "homecontainer.js" 
+    // props.data is RELATED BECAUSE "data" IS USED IN "mapStateToProps"
+    console.log("HOME", props.data);    // now this function is getting "addToCartHandler" from "HomeContainer.js" 
+
+
     // home to container to app.js
     // do this for each components
 
 
-
     return (
         <div>
-
-
-
 
             <h1>Home Component</h1>
             <div>

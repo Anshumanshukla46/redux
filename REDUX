@@ -10,7 +10,7 @@ ON REFRESHING THE REDUX DATA WILL BE CLEARED.
 As normally it is much harder to interact between two differeent components so we could use redux for that.
 Like as if user adding items in cart then number of items should be increased so this can be easily done by redux while context api like things are so hard to do this task.
 
-So once the user have selected the some item then it will be stored in STORE OF REDUX then whenever user want to check the number of items then we can fetch the data form STORE
+So once the user have selected the some item then it will be stored in 'STORE OF REDUX' then whenever user want to check the number of items then we can fetch the data form STORE.
 
 
 4. Architecture
@@ -31,7 +31,8 @@ VIEW -> ACTION -> REDUCER -> STORE
 3- npm install react-redux (connecting the react and redux)
 
 
-6. FILE STRUCTURE inside source
+
+6. FILE STRUCTURE inside source **good practice**
 
 NAME CAN BE ANY BUT REDUX OFFICIAL SITE HAVE USED THIS KIND OF NAME.
 
@@ -46,16 +47,34 @@ service(folder)
     constants.js
 
 
-DOING THE TASK 
-1. made the component but that component will be used in the container (for all components) then exported now app.js(any file) if want to access the file then use the container of that component to use not the real component
+DOING THE TASK (READ IN THE SAME FLOW)
+
+1. made the component but that component will be used in the container (all components) then exported.
+Now app.js(any file) want to access the file then use the container of that component to use, not the real component. **IMPORTANT**
+
+"
+    all static components + css
+"
+
 
 2. ACTION
 -> what is actions
-=> send data from react component to REDUX STORE 
+=> send data from react component to REDUX STORE
 
+"
+    action.js
+"
 
 3. REDUCER
 -> get the data from action and filter out the data to add in STORE
+
+"
+    services - 
+            reducer - reducer.js
+            reducer - index.js
+"
+
+
 
 4. CONTAINER
 -> 
